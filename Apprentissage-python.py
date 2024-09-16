@@ -1,3 +1,3 @@
-temperature = int(input ("Entré une température en celsius ") )
-
-print (((temperature -32) * (5/9)))
+celsius = float(input ("Entrz une température en celsius : ") )
+fahrenheit = celsius * 9/5 +32
+print (fahrenheit)
